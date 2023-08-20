@@ -1,0 +1,39 @@
+What is Amazon SageMaker ? 
+
+>> Amazon SageMaker Canvas is a visual point-and-click interface that expands the use of ML to business analysts, helping them to make business decisions .
+
+Step 1: Set up Amazon SageMaker Studio domain 
+       If You Don't have Amazon SageMaker Studio domain then Open AWS CloudFormation Console and create AWS CloudFormation Give Stack Name 
+    AWS creates bunch of services [ Defult VPC must be in your AWS account , Creates Amazon S3 bucket... ]
+
+Step 2: Log into SageMaker Canvas and upload dataset to Amazon S3 bucket.
+
+     On the SageMaker Canvas page, choose Open Canvas.
+
+Step 3: Choose your datasets and upload in S3 bucket (It reflects automatically in SageMaker Canvas page).
+
+Step 4: On the SageMaker Canvas page, choose Dataset option and click on 'join data' drag the files you uploaded and import data.
+
+Step 5: Build, train, and analyze an ML model.
+
+>> create new model
+    Select – Set up the input data.
+> Build – Build the ML model.
+> Analyze – Analyze the model output and features.
+> Predict – Run predictions in bulk or on a single sample.
+
+  Change Type >> Select 'Numeric model type' for better undustanding statistical data type.
+
+>> click " Quick build"
+   >> Quick build can predict the number of shipping days within +/-1.148 of the actual value.
+
+The values of the numeric prediction are often +/- 
+> RMSE (root mean square error) 
+> MAE  (mean absolute error)
+
+## To have a deeper understanding of the model performance, choose the Advanced metrics link on the right to display the Advanced metrics page.
+
+
+
+
+
